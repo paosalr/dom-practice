@@ -1,4 +1,3 @@
-/* Ajuste global para centrar todo en la pantalla */
 body {
   display: flex;
   justify-content: center;
@@ -9,7 +8,6 @@ body {
   background-color: #f0f0f0;
 }
 
-/* Contenedor principal */
 .container {
   text-align: center;
   display: flex;
@@ -17,12 +15,10 @@ body {
   align-items: center;
 }
 
-/* Estilos para el título */
 h2 {
   margin-bottom: 20px;
 }
 
-/* Botones centrados */
 .buttons {
   display: flex;
   justify-content: center;
@@ -45,16 +41,14 @@ button:hover {
   opacity: 0.8;
 }
 
-/* Contenedor de los elementos en columna */
 .elements-container {
   display: flex;
-  flex-direction: column; /* Alinear en columna */
+  flex-direction: column; 
   align-items: center;
   gap: 10px;
   margin-top: 20px;
 }
 
-/* Estilos para cada elemento */
 .element {
   display: flex;
   align-items: center;
@@ -74,7 +68,6 @@ button:hover {
   opacity: 0.8;
 }
 
-/* Ícono dentro del elemento */
 .icon {
   font-size: 18px;
 }
